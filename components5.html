@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with LeadMark landing page.">
+    <meta name="author" content="Devcrud">
+    <title>LeadMark Landing page | Components</title>
+   <!-- font icons -->
+   <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+   <!-- Bootstrap + Steller  -->
+   <link rel="stylesheet" href="assets/css/leadmark.css">
+</head>
+<body>
+
+   <!-- Page Header -->
+   <header class="header header-mini5"> 
+      <div class="header-title">TRANSLATOR , COMPILER , INTERPRETER , LINKER</div> 
+      <nav aria-label="breadcrumb">
+         <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html"><b>Home</b></a></li>
+           
+         </ol>
+      </nav>
+   </header> <!-- End Of Page Header -->
+
+   <!-- main content -->
+   <div class="container">
+
+       <!-- About Section -->
+    <section class="section" id="about">
+      <div class="container">
+          <div class="row justify-content-between">
+              <div class="col-md-6 pr-md-5 mb-4 mb-md-0">
+                  <h6 class="section-title mb-0">TRANSLATOR , COMPILER , INTERPRETER , LINKER</h6>
+                  <h6 class="section-subtitle mb-4">Ini penjelasannya</h6><br><br>
+                  <p > 
+                    <b>TRANSLATOR</b><br><br>
+                    •	Dalam konteks bahasa pemrograman, "translator" biasanya merujuk kepada program atau perangkat lunak yang mengubah kode sumber dari satu bahasa pemrograman ke bahasa pemrograman lain. Ini biasanya dilakukan untuk beberapa tujuan seperti portabilitas, optimisasi, atau integrasi.<br>
+                    •	Ada 2 jenis translator utama pada bahasa pemrograman, yaitu Compiler dan Interpreter.<br><br>
+                    <b>COMPILER</b><br><br>
+                    •	Compiler adalah jenis translator yang menerjemahkan seluruh kode sumber dalam satu kali proses ke dalam bahasa mesin atau kode antara (intermediate code).<br>
+                    •	Compiler menghasilkan file biner atau kode antara yang dapat dieksekusi secara langsung oleh komputer.<br>
+                    •	Contoh bahasa yang menggunakan compiler adalah C, C++, dan Ada.<br><br>
+                    <b>FASE PADA COMPILER</b><br><br>
+                    1. Fase analisis<br>
+                    • Lexical analyzer yang membagi program dalam bentuk “token”.<br>
+                    • Syntax analyzer, berfungsi mengenali “kalimat” dalam program menggunakan sintaks bahasa.<br>
+                    • Semantic analyzer, bertugas memeriksa semantik statis dari setiap konstruksi.<br>
+                    • Intermediate code generator, yaitu generator menghasilkan kode “abstrak”.<br><br>
+                    
+                    2. Fase Sintesis<br>
+                    • Code optimizer, bertugas mengoptimasi kode abstrak yang dihasilkan intermediate code generator.<br>
+                    • Code generator, yang menerjemahkan kode dari intermediatecode generator menjadi instruksi mesin yang spesifik.<br><br>
+                    
+
+                    </p>
+                  <img src="assets/imgs/about.jpg" alt="" class="w-100 mt-3 shadow-sm">
+              </div>
+              <div class="col-md-6 pl-md-5">
+                  <div class="row">
+                      <div class="col-6">
+                          <img src="assets/imgs/about-1.jpg" alt="" class="w-100 shadow-sm">
+                      </div>
+                      <div class="col-6">
+                          <img src="assets/imgs/about-2.jpg" alt="" class="w-100 shadow-sm">
+                      </div>
+                      <div class="col-12 mt-4">
+                          <p> <b>INTERPRETER</b><br><br>
+                            •	Interpreter adalah jenis translator yang membaca dan mengeksekusi kode sumber baris demi baris saat program berjalan. Ini berarti kode sumber tidak diterjemahkan ke dalam bahasa mesin atau kode antara sebelum dieksekusi.<br>
+                            •	Contoh bahasa yang menggunakan interpreter adalah Python, JavaScript, dan Ruby.<br><br>
+                            
+                            
+                            
+                            <b>COMPILER VS INTERPRETER</b><br><br>
+                            Compiler<br>
+                            Keunggulan = siap di jalankan,lebih cepat,source tidak terlihat<br>
+                            Kekurangan = tidak lintas platform,tidak fleksibel,langkah tambahan<br><br>
+                            Interpreter<br>
+                            Keunggulan = lintas platfrom,fleksibel,mudah diuji<br>
+                            Kekurangan = butuh interpreter,lebih lambat, source terlihat<br><br>
+        
+                            <b>LINKER</b><br><br>
+                            • Tugas dari linker adalah menggabungkan berbagai library external dengan object file untuk menghasilkan sebuah program.<br>
+                            • kode program C biasanya butuh file library external. Sebagai contoh, untuk menampilkan teks ke layer dalam bahasa C perintahnya adalah printf(“Hello World”). Untuk bisa memproses perintah printf(), C butuh sebuah file external, yakni stdio.h.<br>
+                            • Linker-lah yang akan menggabungkan hello_world.obj dengan stdio.h. Hasil akhirnya berupa sebuah program berextension *.exe. Karena file source code saya buat sebagai hello_world.c, file programnya akan bernama hello_world.exe. Dengan men-double-klik file hello_world.exe, program kita sudah langsung berjalan.<br><br></p>
+                         
+                      </div>
+                  </div>
+              </div>
+          </div>              
+      </div>
+  </section>
+  <!-- End OF About Section -->
+
+   </body>
+   </html>
